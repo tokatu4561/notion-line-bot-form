@@ -70,7 +70,7 @@
             event.preventDefault();
             const secret_token = $('#secret_token').val();
             const database_id = $('#database_id').val();
-            const msg = `${secret_token}\n${database_id}`;
+            const msg = `キーを登録\nintegrate:${secret_token}\ndatabaseId:${database_id}`;
             sendText(msg);
         });
     </script>
